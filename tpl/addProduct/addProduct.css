@@ -1,0 +1,15 @@
+@import url(../../style.css);
+@import url("../../colors.css");
+
+.login {
+    margin: 4rem 0;
+}
+
+.login-button, .google-button {
+    margin-top: 1rem;
+}
+
+.google-button {
+    background-color: var(--white);
+    color: var(--blue);
+}

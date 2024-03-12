@@ -1,0 +1,46 @@
+@import url(../../style.css);
+@import url("../../colors.css");
+
+.hero {
+    background: url("../../assets/pics/mothers-children.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.form-card .row .form-group input {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 0;
+    border-color: var(--blue);
+}
+
+.form-inline .form-control {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 0;
+}
+
+.form-inline .form-control:focus {
+    border-color: #007bff;
+}
+
+.taller-textbox {
+    height: 100px; 
+}
+
+.form .container .row .col-md h1,
+.form .container .row .col-md p{
+    color: var(--blue);
+}
+
+.form .container .row .col-md h1{
+    font-size: 3.3rem;
+    font-weight: bolder;
+}
+
+.maps {
+    margin: 6rem 0;
+}

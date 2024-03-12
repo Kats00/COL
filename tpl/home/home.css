@@ -1,0 +1,143 @@
+@import url(../../style.css);
+@import url("../../colors.css");
+
+.hero {
+    position: relative;
+    padding-top: 7rem;
+    padding-bottom: 6rem;
+}
+
+.hero img {
+    height: 20vw;
+    width: 35vw;
+    min-width: 230px;
+    min-height: 150px;
+    max-width: 350px;
+    max-height: 200px;
+}
+
+.hero h1 {
+    text-align: center;
+    color: var(--blue);
+    font-size: 4rem;
+    font-weight: bolder;
+    width: 70vw;
+    padding: 1rem;
+}
+
+.hero .button-cont {
+    gap: 1.5rem;
+}
+
+.video {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-color: var(--blue);
+}
+
+#video-title {
+    color: var(--white);
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.description {
+    color: var(--white);
+}
+
+.what-we-do, .story{
+    background-color: var(--white);
+}
+
+.what-we-do, .stats {
+    position: relative;
+    padding: 4rem;
+}
+
+.what-we-do .title h1 {
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    color: var(--blue);
+    font-weight: bold;
+}
+
+.what-we-do .row .col-sm img {
+    width: 200px;
+    height: 200px;
+    display: block; 
+}
+
+.what-we-do .row .col-sm p {
+    margin-top: 1.5rem;
+    color: var(--blue);
+    font-size: 1rem;
+}
+
+
+#kid-container, #bag-container, #farmer-container {
+    background-position: center;
+    background-size: cover; 
+}
+
+#kid-container {
+    background: url('../../assets/pics/kid.png');
+    background-position: center;
+    background-size: cover; 
+    height: 400px;
+}
+
+#bag-container {
+    background: url('../../assets/pics/kids.png'); 
+    background-position: center;
+    background-size: cover;
+    height: 400px; 
+}
+
+#farmer-container {
+    background: url('../../assets/pics/team.png'); 
+    background-position: center;
+    background-size: cover; 
+    height: 400px;
+}
+
+#story-container {
+    flex: 1;
+    position: relative;
+    background: url('../../assets/pics/children-col.png');
+    background-position: center;
+    background-size: cover;
+  }
+
+
+.stats .row .col-md {
+    padding: 20px;
+    margin: 10px;
+    color: white;
+}
+
+.story .row .col-md h1, .story .row .col-md p {
+    color: var(--blue);
+}
+
+.col-story {
+    padding: 4rem 8rem;
+}
+
+.story .row .col-md h1 {
+    font-size: 3rem;
+    font-weight: bolder;
+    margin: 4rem 0;
+}
+
+.hero-bg {
+    height: 100%;
+    width: 100%;
+    background-image: url("https://static.wixstatic.com/media/992931_c8161410131542898b76fcfd3e17ac43~mv2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed; /* Change to relative to allow absolute positioning of the content */
+    overflow: hidden; 
+    z-index: -99;/* Hide overflowing content */
+}

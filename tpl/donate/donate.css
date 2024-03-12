@@ -1,0 +1,13 @@
+@import url(../../style.css);
+@import url("../../colors.css");
+
+.hero {
+    background: url("../../assets/pics/team-colored.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.editButton, .deleteButton, .addToCart {
+    display: none;
+}

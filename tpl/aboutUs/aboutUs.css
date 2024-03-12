@@ -1,0 +1,41 @@
+@import url(../../style.css);
+@import url("../../colors.css");
+
+.hero {
+    background: url("../../assets/pics/kids-large.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.story {
+    padding: 6rem 20vw;
+    color: var(--blue);
+}
+
+.story h1 {
+    font-weight: bolder;
+}
+
+.story .row .col-md h1, .story .row .col-md p {
+    color: var(--blue);
+}
+
+.col-story {
+    padding: 4rem 4rem;
+    padding-right: 10rem;
+}
+
+.story .row .col-md h1 {
+    font-size: 3rem;
+    font-weight: bolder;
+    margin: 4rem 0;
+}
+
+#story-container {
+    height: 400px;
+    position: relative;
+    background: url('../../assets/pics/kids-vm.png');
+    background-position: center;
+    background-size: cover;
+}

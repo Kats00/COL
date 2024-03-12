@@ -1,0 +1,12 @@
+@import url(../../style.css);
+@import url("../../colors.css");
+
+@media (min-width: 1025px) {
+    .h-custom {
+    height: 100vh !important;
+    }
+}
+
+.cart {
+    margin-top: 5rem;
+}

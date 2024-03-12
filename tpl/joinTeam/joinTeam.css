@@ -1,0 +1,83 @@
+@import url(../../style.css);
+@import url("../../colors.css");
+
+.hero {
+    background: url("../../assets/pics/team-colored.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.story {
+    padding: 6rem 20vw;
+    color: var(--blue);
+}
+
+.story h1 {
+    font-weight: bolder;
+}
+
+.story .row .col-md h1, .story .row .col-md p {
+    color: var(--blue);
+}
+
+.col-story {
+    padding: 4rem 4rem;
+    padding-right: 10rem;
+}
+
+.story .row .col-md h1 {
+    font-size: 3rem;
+    font-weight: bolder;
+    margin: 4rem 0;
+}
+
+#story-container {
+    height: 400px;
+    position: relative;
+    background: url('../../assets/pics/children-col.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.sponsors {
+    background-color: var(--gray);
+}
+
+.sponsors .container .row {
+    padding: 3rem 8rem;
+}
+
+.sponsors .container h1 {
+    margin: 4rem 0;
+    color: var(--blue);
+    font-weight: bolder;
+}
+
+#sponsor1{
+    height: 250px;
+    width: 250px;
+    position: relative;
+    background: url('../../assets/pics/sponsor1.png');
+    background-position: center;
+    background-size: cover;
+}
+
+#sponsor2{
+    height: 250px;
+    width: 250px;
+    position: relative;
+    background: url('../../assets/pics/sponsor2.png');
+    background-position: center;
+    background-size: cover;
+}
+
+#sponsor3{
+    height: 250px;
+    width: 250px;
+    position: relative;
+    background: url('../../assets/pics/sponsor3.png');
+    background-position: center;
+    background-size: cover;
+}
+
